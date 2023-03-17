@@ -1,15 +1,11 @@
 <?php
 
-use App\Http\Controllers\GenericInfoController;
+use App\Http\Controllers\Api\v1\Members\AvatarController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MeController;
 
-Route::get('/', [GenericInfoController::class, 'index'])->name('status');
 
-Route::middleware(['auth'])->group(function () {
-    Route::get('/members/@me', [MeController::class, 'index'])->name('members.me.view');
-});
 // // Direct Message
 
 // Route::post('messages/{channel}', [APIMessageController::class, 'create'])->name('direct.create');
@@ -50,4 +46,3 @@ Route::middleware(['auth'])->group(function () {
 // Route::get('swarm/{hive}/{channel}', [APIHiveMessageController::class, 'index'])->name('messages.list');
 // Route::patch('swarm/{hive}/{channel}/:message', [APIHiveMessageController::class, 'editMessage'])->name('messages.edit');
 // Route::delete('swarm/{hive}/{channel}/:message', [APIHiveMessageController::class, 'editMessage'])->name('messages.edit');
-

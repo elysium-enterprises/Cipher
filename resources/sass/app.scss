@@ -3,35 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;700&family=Linden+Hill&family=Open+Sans&family=Red+Hat+Mono&family=Roboto+Slab&family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Montserrat&family=Red+Hat+Mono&family=Roboto+Slab&display=swap');
 
 @font-face {
     font-family: 'twemoji';
     src: url(../fonts/twemoji.ttf);
-}
-
-.ibm-plex-sans {
-    font-family: 'IBM Plex Sans', sans-serif;
-}
-
-.linden-hill {
-    font-family: 'Linden Hill', serif;
-}
-
-.open-sans {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.unbounded {
-    font-family: 'Unbounded', sans-serif;
-}
-
-.monospace {
-    font-family: 'IBM Plex Mono', monospace;
-}
-
-.fs-0 {
-    font-size: 0.8rem;
 }
 
 html, body {

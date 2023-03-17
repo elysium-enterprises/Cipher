@@ -1,48 +1,63 @@
 <?php
 
+use App\Http\Controllers\App\AppLandingController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
-use App\Http\Controllers\App\HiveController;
-use App\Http\Controllers\App\HomeController;
-use App\Http\Controllers\App\PrivateController;
-use App\Http\Controllers\App\SwarmController;
-use App\Http\Controllers\AppHomepageController;
 use App\Http\Controllers\Landing\IndexController;
 
-use App\Http\Controllers\Download\DownloadController;
-use App\Http\Controllers\Download\RentController;
+use App\Http\Controllers\DownloadController;
+use App\Http\Controllers\RentController;
 
 use App\Http\Controllers\Auth\SigninController;
 use App\Http\Controllers\Auth\SignoutController;
 use App\Http\Controllers\Auth\SignupController;
 
-use App\Http\Controllers\Support\SupportController;
+use App\Http\Controllers\SupportController;
 
-use App\Http\Controllers\Docs\DocsController;
+use App\Http\Controllers\Legal\PrivacyPolicyController;
+use App\Http\Controllers\Newsletter\NewsletterController;
+use App\Http\Controllers\App\Members\AvatarController;
 
 Route::domain(env('APP_URL'))->group(function() {
 
     Route::get('/', [IndexController::class, 'index'])->name('index');
     
+    Route::name('newsletter.')->group(function() {
+        Route::post('newsletter', [NewsletterController::class, 'store'])->name('subscribe.store');
+        Route::get('newsletter', [NewsletterController::class, 'show'])->name('subscribe.show');
+        Route::get('newsletter/subscribed', [NewsletterController::class, 'showSubscribed'])->name('subscribed.show');
+        Route::get('newsletter/unsubscribed', [NewsletterController::class, 'showUnsibscribed'])->name('unsubscribed.show');
+        Route::delete('newsletter/{subscriptionId}', [NewsletterController::class, 'destroy'])->name('subscribe.destroy');
+    });
+
     Route::name('auth.')->group(function() {
-        Route::get('signin', [SigninController::class, 'index'])->name('signin');
-        Route::get('signout', [SignoutController::class, 'index'])->name('signout');
-        Route::post('signup', [SignupController::class, 'store'])->name('signup');
+
+        Route::get('signup', [SignupController::class, 'show'])->name('signup.show');
+        Route::get('signin', [SigninController::class, 'show'])->name('signin.show');
+
+        Route::get('auth/name', [SignupController::class, 'generateRandomDisplayName'])->name('signup.randomname.show');
+
+        Route::post('auth/signin', [SigninController::class, 'index'])->name('signin.store');
+        Route::post('auth/signup', [SignupController::class, 'store'])->name('signup.store');
+
+        Route::get('auth/signout', [SignoutController::class, 'index'])->name('signout.index');
     });
 
-    Route::domain('app.' . env('APP_URL'))->group(function () {
-        Route::name('app.')->group(function() {
-            Route::get('/swarm', [SwarmController::class, 'index'])->name('swarm.discover');
-            Route::get('/swarm/{hive}', [SwarmController::class, 'hive'])->name('swarm.hive');
-            Route::get('/swarm/apply', [SwarmController::class, 'apply'])->name('swarm.apply');
-            Route::post('/swarm/apply', [SwarmController::class, 'store'])->name('swarm.apply.store');
+    // Route::domain('app.' . env('APP_URL'))->group(function () {
+    //     Route::name('app.')->group(function() {
+    //         Route::get('/swarm', [SwarmController::class, 'index'])->name('swarm.discover');
+    //         Route::get('/swarm/{hive}', [SwarmController::class, 'hive'])->name('swarm.hive');
+    //         Route::get('/swarm/apply', [SwarmController::class, 'apply'])->name('swarm.apply');
+    //         Route::post('/swarm/apply', [SwarmController::class, 'store'])->name('swarm.apply.store');
 
-            Route::get('/members/@me', [AppHomepageController::class, 'dashboard'])->name('dashboard.dashboard');
-        });
-    });
+    //         Route::get('/members/@me', [AppHomepageController::class, 'dashboard'])->name('dashboard.dashboard');
+    //     });
+    // });
 
     Route::name('landing.')->group(function() {
+
+
         Route::prefix('hive/')->group(function() {
             Route::name('hive.')->group(function() {
                 Route::get('host', [RentController::class])->name('host');
@@ -54,6 +69,18 @@ Route::domain(env('APP_URL'))->group(function() {
         Route::prefix('support/')->group(function() {
             Route::name('support.')->group(function() {
                 Route::get('/', [SupportController::class, 'index'])->name('index');
+            });
+        });
+
+        Route::prefix('about/')->group(function() {
+            Route::name('about.')->group(function() {
+                Route::get('company', function() {
+                    return 'about company';
+                })->name('company');
+
+                Route::get('app', function() {
+                    return 'about app';
+                })->name('app');
             });
         });
 
@@ -78,9 +105,7 @@ Route::domain(env('APP_URL'))->group(function() {
             return 'terms';
         })->name('terms');
         
-        Route::get('privacy', function() {
-            return 'privacy';
-        })->name('privacy');
+        Route::get('privacy', [PrivacyPolicyController::class, 'show'])->name('privacy');
         
         Route::get('cookies', function() {
             return 'cookies';
@@ -98,9 +123,31 @@ Route::domain(env('APP_URL'))->group(function() {
             return 'disclosure';
         })->name('disclosure');
     });
+
+    
+});
+
+Route::name('app.')->group(function () {
+    Route::name('channels.')->group(function () {
+        Route::get('/channels/@me', [AppLandingController::class, 'show'])->name('me');
+    });
+
+    Route::name('members.')->group(function () {
+        Route::name('avatars.')->group(function () {
+            Route::get('/members/@me/avatar', [AvatarController::class, 'showOwnAvatar'])->name('me');
+            Route::get('/members/{id}/avatar', [AvatarController::class, 'show'])->name('id');
+        });
+    });
 });
 
 
+Route::domain('admin.' . env('APP_URL'))->group(function () {
+    Route::name('admin.')->group(function () {
+        Route::get('/', function() {
+            return 'admin login';
+        });    
+    });
+});
 
 // Route::domain('blog.' . env('APP_URL'))->group(function () {
 //     Route::name('blog.')->group(function () {
@@ -123,9 +170,3 @@ Route::domain(env('APP_URL'))->group(function() {
 //         });
 //     });
 // });
-
-Route::domain('status.' . env('APP_URL'))->group(function () {
-    Route::get('/', function () {
-        return 'status';
-    })->name('status');
-});

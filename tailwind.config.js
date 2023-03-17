@@ -2,7 +2,11 @@
 
 
 module.exports = {
+  plugins: [
+    require('flowbite/plugin')
+  ],
   content: [
+    "./node_modules/flowbite/**/*.js",
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
     "./resources/**/*.vue",
@@ -10,18 +14,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary' : '#000103',
-        'secondary' : '#C6BCB4',
-        'logo-primary' : '#DC3545',
-        'tinted' : '#F0F0F0'
+        'brand' : '#DC3545',
       },
     },
     fontFamily: {
-      'sans': ['Open Sans', 'twemoji'],
-      'serif': ['Roboto Slab', 'twemoji'],
-      'mono': ['Red Hat Mono', 'twemoji'],
-      // 'display': [],
-      'body': ['Open Sans', 'twemoji']
+      'sans': ['"Montserrat"', '"twemoji"'],
+      'serif': ['"Roboto Slab"', '"twemoji"'],
+      'mono': ['"Red Hat Mono"', '"twemoji"'],
+      'display': ['"Inter"'],
+      'body': ['"Montserrat"', '"twemoji"']
     }
   },
   

@@ -1,16 +1,19 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/css/landing_page.css": "/css/landing_page.css",
+    "/images/background.png": "/images/background.png",
     "/images/elysium.svg": "/images/elysium.svg",
+    "/images/emile-seguin-R9OueKOtGGU-unsplash (1).jpg": "/images/emile-seguin-R9OueKOtGGU-unsplash (1).jpg",
     "/images/full-red.svg": "/images/full-red.svg",
     "/images/full.svg": "/images/full.svg",
+    "/images/hans-eiskonen-wn57cSQ7VzI-unsplash.jpg": "/images/hans-eiskonen-wn57cSQ7VzI-unsplash.jpg",
     "/images/hero.png": "/images/hero.png",
     "/images/hero.svg": "/images/hero.svg",
+    "/images/hero_desktop.jpg": "/images/hero_desktop.jpg",
+    "/images/hero_mobile.jpg": "/images/hero_mobile.jpg",
+    "/images/hero_mobile.png": "/images/hero_mobile.png",
+    "/images/hero_mobile_red.png": "/images/hero_mobile_red.png",
     "/images/intermezzo.png": "/images/intermezzo.png",
-    "/images/landing/mini_pc.png": "/images/landing/mini_pc.png",
-    "/images/landing/server.png": "/images/landing/server.png",
     "/images/logo.svg": "/images/logo.svg",
-    "/images/phone.png": "/images/phone.png",
-    "/images/hero_mobile.jpg": "/images/hero_mobile.jpg"
+    "/images/phone.png": "/images/phone.png"
 }

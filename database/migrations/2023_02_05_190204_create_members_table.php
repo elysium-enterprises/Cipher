@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-
+use Illuminate\Support\Facades\DB;
 
 return new class extends Migration
 {
@@ -15,22 +15,26 @@ return new class extends Migration
     public function up()
     {
         Schema::create('members', function (Blueprint $table) {
-            $table->uuid('id')->primary();
+            $table->id();
             $table->timestamps();
-            $table->boolean('is_suspended')->default('false');
             $table->dateTime('latest_ping')->useCurrent();
-
+            $table->boolean('invisible')->default(false);
+            
             // Login information
-            $table->string('login_name')->unique();
+            $table->string('cid')->unique();
             $table->string('password');
             $table->string('mfa_secret')->nullable();
 
-            $table->string('public_key');
-            $table->string('private_key');
+            $table->text('private_key');
+            $table->text('public_key');
+
+            $table->boolean('is_admin')->default(false);
+
+            $table->string('remember_token', 100)->nullable();
             
             // Display information
             $table->string('display_name');
-            $table->string('avatar')->nullable();
+            $table->string('avatar_mime')->nullable();
             $table->string('status')->nullable();
             $table->string('about_me')->nullable();
             $table->string('verified_since')->nullable();
@@ -40,8 +44,8 @@ return new class extends Migration
             $table->string('contact_code')->nullable();
             
             // Personal information
-            $table->string('email')->nullable()->unique();
-            $table->string('phone')->nullable()->unique();
+            $table->string('email')->nullable();
+            $table->string('phone')->nullable();
             $table->date('birthday')->nullable(); 
             $table->boolean('completed_onboarding')->default(false);
 
@@ -54,9 +58,11 @@ return new class extends Migration
                 'mutual_hive',
                 'mutual_everything',
                 'everyone'
-            ]);
+            ])->default('mutual_everything');
             $table->boolean('dark_mode')->default(true);
+            $table->boolean('developer_mode')->default(false);
 
+            $table->boolean('is_suspended')->default(false);
         });
     }
 

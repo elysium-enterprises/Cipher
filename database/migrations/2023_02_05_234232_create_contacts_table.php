@@ -1,5 +1,6 @@
 <?php
 
+use App\Rules\DifferentFrom;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -16,11 +17,14 @@ return new class extends Migration
         Schema::create('contacts', function (Blueprint $table) {
             $table->id('relationship_id');
             $table->dateTime('since')->useCurrent();
-            $table->foreignUuid('author_id')->references('id')->on('members');
-            $table->foreignUuid('recipient_id')->references('id')->on('members');
+            // Cannot have 2 cascades: restrict recipient because sending to non existing member is not as bad as receiving from one
+            $table->foreignId('author_id')->references('id')->on('members')->onDelete('cascade');
+            $table->foreignId('recipient_id')->references('id')->on('members');
             $table->string('message')->nullable();
             $table->boolean('accepted')->default('false');
         });
+
+
     }
 
     /**
