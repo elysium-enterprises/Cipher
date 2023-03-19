@@ -3290,6 +3290,7 @@ window._ = (lodash__WEBPACK_IMPORTED_MODULE_0___default());
 window.axios = axios__WEBPACK_IMPORTED_MODULE_2__["default"];
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 window.$ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+window.Vue = Object(function webpackMissingModule() { var e = new Error("Cannot find module 'vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening

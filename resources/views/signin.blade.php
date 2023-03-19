@@ -6,7 +6,7 @@
     <div class="flex flex-col md:items-center md:justify-center px-6 pt-8 mx-auto min-h-screen pt:mt-0">
         <a href="{{ route('index') }}" class="flex items-center justify-center mb-8 text-2xl 
                 md:text-3xl font-display tracking-tight font-bold lg:mb-10 sm:px-8 px-6">
-            <img src="{{ asset('images/logo.svg') }}" class="mr-4 h-8 md:h-11" alt="{{ __('Logo') }}">
+            <img src="{{ mix('images/logo.svg') }}" class="mr-4 h-8 md:h-11" alt="{{ __('Logo') }}">
             <span>Cipher Foundation</span>
         </a>
 

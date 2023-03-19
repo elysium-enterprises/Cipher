@@ -9,8 +9,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="@yield('robots', 'index, nofollow, noimageindex, noarchive, notranslate')" />
         <meta charset="utf-8" />
-        <link rel="preload" href="{{ asset('images/logo.svg') }}" />
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
+        <link rel="preload" href="{{ mix('images/logo.svg') }}" />
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
         @if($errors->any() && env('APP_DEBUG') == 'true')
         <script>
             @foreach($errors->getMessages() as $field => $errorList)

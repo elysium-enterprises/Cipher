@@ -8,7 +8,7 @@
         <div class="w-auto md:w-1/2 flex flex-col md:block mx-auto">
             <h1 class="text-3xl md:text-4xl pb-5 font-bold tracking-tight">{{ __('Cipher your chat, secure your future.') }}</h1>
             <h2 class="text-lg">{{ __('Join the secure communication revolution with Cipher.') }}</h2>
-            <a class="text-lg block mt-4 underline text-brand" href="{{ route('landing.about.app') }}">{{ __('Learn More') }}</a>
+            <a class="text-lg block mt-4 underline w-fit text-brand hover:text-black duration-300 transition-all" href="{{ route('landing.about.app') }}">{{ __('Learn More') }}</a>
         </div>
 
     </div>
@@ -46,7 +46,7 @@
                         &bull; <span class="text-red-600 font-semibold">{{ $errors->first('cid') }}</span>
                         @endif
                     </label>
-                    <div class="flex bg-gray-50 border border-gray-300 sm:text-sm rounded-lg w-full p-2.5 pr-4 outline-none transition-[border] duration-300">
+                    <div class="flex border border-gray-300 sm:text-sm rounded-lg w-full p-2.5 pr-4 outline-none transition-[border] duration-300">
                         <label for="cid" class="pr-2.5 text-gray-500">$</label>
                         <input type="text" name="cid" id="cid" autocomplete="username" class="bg-transparent outline-none flex-grow">
                         @if($errors->has('cid'))
@@ -97,7 +97,7 @@
             <div class="w-full flex flex-col items-center py-4 md:pb-0">
                 <button type="submit" class="text-white inline-block w-full md:w-1/2 bg-black focus:outline-none
                 hover:bg-brand focus:ring-4 focus:ring-brand/50 font-bold rounded-full
-                transition-color duration-300 text-center
+                transition-color duration-300 text-center text-lg
                 px-5 py-2.5">
                     {{ __('Sign Up') }}
                 </button>
@@ -130,8 +130,8 @@
             </dl>
         </div>
 <div class="w-full flex flex-col font-display">
-    <div class="w-full h-screen md:h-[50vh] grid grid-rows-2 md:grid-rows-1 grid-cols-1 md:grid-cols-2">
-        <div class="bg-gray-50 flex items-center justify-center bg-no-repeat bg-center bg-cover" style="background-image: url('https://images.unsplash.com/photo-1523875194681-bedd468c58bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8')">
+    <div class="w-full md:h-96 h-screen min-h-fit grid grid-rows-2 md:grid-rows-1 grid-cols-1 md:grid-cols-2">
+        <div class="flex items-center justify-center bg-no-repeat bg-center bg-contain" style="background-image: url('{{ mix('images/illustrations/spyglass.svg') }}')">
         </div>
         <div class="flex items-center justify-center">
             <div class="p-10 md:max-w-[70%]">
@@ -141,8 +141,8 @@
         </div>
     </div>
 
-    <div class="w-full h-screen md:h-[50vh] grid grid-rows-2 md:grid-rows-1 grid-cols-1 md:grid-cols-2">
-        <div class="bg-gray-50 flex items-center justify-center bg-no-repeat bg-center bg-cover md:order-last" style="background-image: url('https://images.unsplash.com/photo-1635237393049-55046279ebb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8')">
+    <div class="w-full md:h-96 h-screen min-h-fit grid grid-rows-2 md:grid-rows-1 grid-cols-1 md:grid-cols-2">
+        <div class="flex items-center justify-center bg-no-repeat bg-center bg-contain md:order-last" style="background-image: url('{{ mix('images/illustrations/lock.svg') }}')">
         </div>
         <div class="flex items-center justify-center">
             <div class="p-10 md:max-w-[70%]">
@@ -152,8 +152,8 @@
         </div>
     </div>
 
-    <div class="w-full h-screen md:h-[50vh] grid grid-rows-2 md:grid-rows-1 grid-cols-1 md:grid-cols-2">
-        <div class="bg-gray-50 flex items-center justify-center bg-no-repeat bg-center bg-cover" style="background-image: url('https://images.unsplash.com/photo-1522756890800-ac12d130a43f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8')">
+    <div class="w-full md:h-96 h-screen min-h-fit grid grid-rows-2 md:grid-rows-1 grid-cols-1 md:grid-cols-2">
+        <div class="flex items-center justify-center bg-no-repeat bg-center bg-contain" style="background-image: url('{{ mix('images/illustrations/chat.svg') }}')">
         </div>
         <div class="flex items-center justify-center">
             <div class="p-10 md:max-w-[70%]">
@@ -163,8 +163,8 @@
         </div>
     </div>
 
-    <div class="w-full h-screen md:h-[50vh] grid grid-rows-2 md:grid-rows-1 grid-cols-1 md:grid-cols-2">
-        <div class="bg-gray-50 flex items-center justify-center bg-no-repeat bg-center bg-cover md:order-last" style="background-image: url('https://images.unsplash.com/photo-1626285094802-8fc10ed387ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8')">
+    <div class="w-full md:h-96 h-screen min-h-fit grid grid-rows-2 md:grid-rows-1 grid-cols-1 md:grid-cols-2">
+        <div class="flex items-center justify-center bg-no-repeat bg-center bg-contain md:order-last" style="background-image: url('{{ mix('images/illustrations/hands.svg') }}')">
         </div>
         <div class="flex items-center justify-center">
             <div class="p-10 md:max-w-[70%]">
