@@ -11,6 +11,11 @@
         <meta charset="utf-8" />
         <link rel="preload" href="{{ mix('images/logo.svg') }}" />
         <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
+
+        <meta name="theme-color" content="#DC3545" />
+
+        <script src="{{ mix('js/app.js') }}"></script>
+
         @if($errors->any() && env('APP_DEBUG') == 'true')
         <script>
             @foreach($errors->getMessages() as $field => $errorList)
@@ -22,7 +27,7 @@
         @endif
         @yield('head')
     </head>
-    <body class="min-h-screen">
+    <body>
         @yield('body') 
     </body>
 </html>

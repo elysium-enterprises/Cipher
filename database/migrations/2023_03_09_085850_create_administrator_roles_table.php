@@ -15,18 +15,19 @@ return new class extends Migration
     {
         Schema::create('administrator_roles', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('member_id')->refences('id')->on('members')->onDelete('cascade');
+            $table->foreignId('member_id')->refences('id')->on('members');
 
             $table->enum('permission', [
                 'can_create_products',
                 'can_manage_products',
-                
+                'can_book_products',
+
                 'can_create_blogposts',
                 'can_manage_blogposts',
                 'can_authorize_blogposts',
 
                 'can_view_analytics',
-                
+
                 'can_manage_members',
                 'can_manage_hives',
 
@@ -46,10 +47,11 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::table('administrator_roles', function (Blueprint $table) {
-            $table->dropForeign('administrator_roles_member_id_foreign');
-        });
-
+        if (Schema::hasTable('administrator_roles')) {
+            Schema::table('administrator_roles', function (Blueprint $table) {
+                // $table->dropForeign(['member_id']);
+            });
+        }
         Schema::dropIfExists('administrator_roles');
     }
 };

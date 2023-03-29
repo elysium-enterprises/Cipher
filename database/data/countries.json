@@ -1,0 +1,1274 @@
+[
+    {
+        "country_code": "AF",
+        "country": "Afghanistan",
+        "official_name": "The Islamic Republic of Afghanistan"
+    },
+    {
+        "country_code": "AX",
+        "country": "Åland Islands",
+        "official_name": "Åland"
+    },
+    {
+        "country_code": "AL",
+        "country": "Albania",
+        "official_name": "The Republic of Albania"
+    },
+    {
+        "country_code": "DZ",
+        "country": "Algeria",
+        "official_name": "The People's Democratic Republic of Algeria"
+    },
+    {
+        "country_code": "AS",
+        "country": "American Samoa",
+        "official_name": "The Territory of American Samoa"
+    },
+    {
+        "country_code": "AD",
+        "country": "Andorra",
+        "official_name": "The Principality of Andorra"
+    },
+    {
+        "country_code": "AO",
+        "country": "Angola",
+        "official_name": "The Republic of Angola"
+    },
+    {
+        "country_code": "AI",
+        "country": "Anguilla",
+        "official_name": "Anguilla"
+    },
+    {
+        "country_code": "AQ",
+        "country": "Antarctica",
+        "official_name": "Antartica"
+    },
+    {
+        "country_code": "AG",
+        "country": "Antigua and Barbuda",
+        "official_name": "Antigua and Barbuda"
+    },
+    {
+        "country_code": "AR",
+        "country": "Argentina",
+        "official_name": "The Argentine Republic"
+    },
+    {
+        "country_code": "AM",
+        "country": "Armenia",
+        "official_name": "The Republic of Armenia"
+    },
+    {
+        "country_code": "AW",
+        "country": "Aruba",
+        "official_name": "Aruba"
+    },
+    {
+        "country_code": "AU",
+        "country": "Australia",
+        "official_name": "The Commonwealth of Australia"
+    },
+    {
+        "country_code": "AT",
+        "country": "Austria",
+        "vat_percentage": 20,
+        "official_name": "The Republic of Austria"
+    },
+    {
+        "country_code": "AZ",
+        "country": "Azerbaijan",
+        "official_name": "The Republic of Azerbaijan"
+    },
+    {
+        "country_code": "BS",
+        "country": "Bahamas",
+        "official_name": "The Commonwealth of The Bahamas"
+    },
+    {
+        "country_code": "BH",
+        "country": "Bahrain",
+        "official_name": "The Kingdom of Bahrain"
+    },
+    {
+        "country_code": "BD",
+        "country": "Bangladesh",
+        "official_name": "The People's Republic of Bangladesh"
+    },
+    {
+        "country_code": "BB",
+        "country": "Barbados",
+        "official_name": "Barbados"
+    },
+    {
+        "country_code": "BY",
+        "country": "Belarus",
+        "official_name": "The Republic of Belarus"
+    },
+    {
+        "country_code": "BE",
+        "country": "Belgium",
+        "vat_percentage": 21,
+        "official_name": "The Kingdom of Belgium"
+    },
+    {
+        "country_code": "BZ",
+        "country": "Belize",
+        "official_name": "Belize"
+    },
+    {
+        "country_code": "BJ",
+        "country": "Benin",
+        "official_name": "The Republic of Benin"
+    },
+    {
+        "country_code": "BM",
+        "country": "Bermuda",
+        "official_name": "Bermuda"
+    },
+    {
+        "country_code": "BT",
+        "country": "Bhutan",
+        "official_name": "The Kingdom of Bhutan"
+    },
+    {
+        "country_code": "BO",
+        "country": "Bolivia",
+        "official_name": "The Plurinational State of Bolivia"
+    },
+    {
+        "country_code": "BQ",
+        "country": "Bonaire, Sint Eustatius and Saba",
+        "official_name": "Bonaire, Sint Eustatius and Saba"
+    },
+    {
+        "country_code": "BA",
+        "country": "Bosnia and Herzegovina",
+        "official_name": "Bosnia and Herzegovina"
+    },
+    {
+        "country_code": "BW",
+        "country": "Botswana",
+        "official_name": "The Republic of Botswana"
+    },
+    {
+        "country_code": "BV",
+        "country": "Bouvet Island",
+        "official_name": "Bouvet Island"
+    },
+    {
+        "country_code": "BR",
+        "country": "Brazil",
+        "official_name": "The Federative Republic of Brazil"
+    },
+    {
+        "country_code": "IO",
+        "country": "British Indian Ocean Territory",
+        "official_name": "The British Indian Ocean Territory"
+    },
+    {
+        "country_code": "BN",
+        "country": "Brunei",
+        "official_name": "The Nation of Brunei, the Abode of Peace"
+    },
+    {
+        "country_code": "BG",
+        "country": "Bulgaria",
+        "vat_percentage": 20,
+        "official_name": "The Republic of Bulgaria"
+    },
+    {
+        "country_code": "BF",
+        "country": "Burkina Faso",
+        "official_name": "Burkina Faso"
+    },
+    {
+        "country_code": "BI",
+        "country": "Burundi",
+        "official_name": "The Republic of Burundi"
+    },
+    {
+        "country_code": "CV",
+        "country": "Cabo Verde",
+        "official_name": "The Republic of Cabo Verde"
+    },
+    {
+        "country_code": "KH",
+        "country": "Cambodia",
+        "official_name": "The Kingdom of Cambodia"
+    },
+    {
+        "country_code": "CM",
+        "country": "Cameroon",
+        "official_name": "The Republic of Cameroon"
+    },
+    {
+        "country_code": "CA",
+        "country": "Canada",
+        "official_name": "Canada"
+    },
+    {
+        "country_code": "KY",
+        "country": "Cayman Islands",
+        "official_name": "The Cayman Islands"
+    },
+    {
+        "country_code": "CF",
+        "country": "Central African Republic",
+        "official_name": "The Central African Republic"
+    },
+    {
+        "country_code": "TD",
+        "country": "Chad",
+        "official_name": "The Republic of Chad"
+    },
+    {
+        "country_code": "CL",
+        "country": "Chile",
+        "official_name": "The Republic of Chile"
+    },
+    {
+        "country_code": "CN",
+        "country": "China",
+        "official_name": "The People's Republic of China"
+    },
+    {
+        "country_code": "CX",
+        "country": "Christmas Island",
+        "official_name": "The Territory of Christmas Island"
+    },
+    {
+        "country_code": "CC",
+        "country": "Cocos (Keeling) Islands",
+        "official_name": "The Territory of Cocos (Keeling) Islands"
+    },
+    {
+        "country_code": "CO",
+        "country": "Colombia",
+        "official_name": "The Republic of Colombia"
+    },
+    {
+        "country_code": "KM",
+        "country": "Comoros",
+        "official_name": "The Union of the Comoros"
+    },
+    {
+        "country_code": "CG",
+        "country": "Congo",
+        "official_name": "The Republic of the Congo"
+    },
+    {
+        "country_code": "CD",
+        "country": "Congo, Democratic Republic of the",
+        "official_name": "The Democratic Republic of the Congo"
+    },
+    {
+        "country_code": "CK",
+        "country": "Cook Islands",
+        "official_name": "The Cook Islands"
+    },
+    {
+        "country_code": "CR",
+        "country": "Costa Rica",
+        "official_name": "The Republic of Costa Rica"
+    },
+    {
+        "country_code": "CI",
+        "country": "Côte d'Ivoire",
+        "official_name": "The Republic of Côte d'Ivoire"
+    },
+    {
+        "country_code": "HR",
+        "country": "Croatia",
+        "vat_percentage": 25,
+        "official_name": "The Republic of Croatia"
+    },
+    {
+        "country_code": "CU",
+        "country": "Cuba",
+        "official_name": "The Republic of Cuba"
+    },
+    {
+        "country_code": "CW",
+        "country": "Curaçao",
+        "official_name": "The Country of Curaçao"
+    },
+    {
+        "country_code": "CY",
+        "country": "Cyprus",
+        "vat_percentage": 19,
+        "official_name": "The Republic of Cyprus"
+    },
+    {
+        "country_code": "CZ",
+        "country": "Czechia",
+        "vat_percentage": 21,
+        "official_name": "The Czech Republic"
+    },
+    {
+        "country_code": "DK",
+        "country": "Denmark",
+        "vat_percentage": 25,
+        "official_name": "The Kingdom of Denmark"
+    },
+    {
+        "country_code": "DJ",
+        "country": "Djibouti",
+        "official_name": "The Republic of Djibouti"
+    },
+    {
+        "country_code": "DM",
+        "country": "Dominica",
+        "official_name": "The Commonwealth of Dominica"
+    },
+    {
+        "country_code": "DO",
+        "country": "Dominican Republic",
+        "official_name": "The Dominican Republic"
+    },
+    {
+        "country_code": "EC",
+        "country": "Ecuador",
+        "official_name": "The Republic of Ecuador"
+    },
+    {
+        "country_code": "EG",
+        "country": "Egypt",
+        "official_name": "The Arab Republic of Egypt"
+    },
+    {
+        "country_code": "SV",
+        "country": "El Salvador",
+        "official_name": "The Republic of El Salvador"
+    },
+    {
+        "country_code": "GQ",
+        "country": "Equatorial Guinea",
+        "official_name": "The Republic of Equatorial Guinea"
+    },
+    {
+        "country_code": "ER",
+        "country": "Eritrea",
+        "official_name": "The State of Eritrea"
+    },
+    {
+        "country_code": "EE",
+        "country": "Estonia",
+        "vat_percentage": 20,
+        "official_name": "The Republic of Estonia"
+    },
+    {
+        "country_code": "SZ",
+        "country": "Eswatini",
+        "official_name": "The Kingdom of Eswatini"
+    },
+    {
+        "country_code": "ET",
+        "country": "Ethiopia",
+        "official_name": "The Federal Democratic Republic of Ethiopia"
+    },
+    {
+        "country_code": "FK",
+        "country": "Falkland Islands (Malvinas)",
+        "official_name": "The Falkland Islands"
+    },
+    {
+        "country_code": "FO",
+        "country": "Faroe Islands",
+        "official_name": "The Faroe Islands"
+    },
+    {
+        "country_code": "FJ",
+        "country": "Fiji",
+        "official_name": "The Republic of Fiji"
+    },
+    {
+        "country_code": "FI",
+        "country": "Finland",
+        "vat_percentage": 24,
+        "official_name": "The Republic of Finland"
+    },
+    {
+        "country_code": "FR",
+        "country": "France",
+        "vat_percentage": 20,
+        "official_name": "The French Republic"
+    },
+    {
+        "country_code": "GF",
+        "country": "French Guiana",
+        "official_name": "Guyane"
+    },
+    {
+        "country_code": "PF",
+        "country": "French Polynesia",
+        "official_name": "French Polynesia"
+    },
+    {
+        "country_code": "TF",
+        "country": "French Southern Territories",
+        "official_name": "The French Southern and Antarctic Lands"
+    },
+    {
+        "country_code": "GA",
+        "country": "Gabon",
+        "official_name": "The Gabonese Republic"
+    },
+    {
+        "country_code": "GM",
+        "country": "Gambia",
+        "official_name": "The Republic of The Gambia"
+    },
+    {
+        "country_code": "GE",
+        "country": "Georgia",
+        "official_name": "Georgia"
+    },
+    {
+        "country_code": "DE",
+        "country": "Germany",
+        "vat_percentage": 19,
+        "official_name": "The Federal Republic of Germany"
+    },
+    {
+        "country_code": "GH",
+        "country": "Ghana",
+        "official_name": "The Republic of Ghana"
+    },
+    {
+        "country_code": "GI",
+        "country": "Gibraltar",
+        "official_name": "Gibraltar"
+    },
+    {
+        "country_code": "GR",
+        "country": "Greece",
+        "vat_percentage": 24,
+        "official_name": "The Hellenic Republic"
+    },
+    {
+        "country_code": "GL",
+        "country": "Greenland",
+        "official_name": "Kalaallit Nunaat"
+    },
+    {
+        "country_code": "GD",
+        "country": "Grenada",
+        "official_name": "Grenada"
+    },
+    {
+        "country_code": "GP",
+        "country": "Guadeloupe",
+        "official_name": "Guadeloupe"
+    },
+    {
+        "country_code": "GU",
+        "country": "Guam",
+        "official_name": "The Territory of Guam"
+    },
+    {
+        "country_code": "GT",
+        "country": "Guatemala",
+        "official_name": "The Republic of Guatemala"
+    },
+    {
+        "country_code": "GG",
+        "country": "Guernsey",
+        "official_name": "The Bailiwick of Guernsey"
+    },
+    {
+        "country_code": "GN",
+        "country": "Guinea",
+        "official_name": "The Republic of Guinea"
+    },
+    {
+        "country_code": "GW",
+        "country": "Guinea-Bissau",
+        "official_name": "The Republic of Guinea-Bissau"
+    },
+    {
+        "country_code": "GY",
+        "country": "Guyana",
+        "official_name": "The Co-operative Republic of Guyana"
+    },
+    {
+        "country_code": "HT",
+        "country": "Haiti",
+        "official_name": "The Republic of Haiti"
+    },
+    {
+        "country_code": "HM",
+        "country": "Heard Island and McDonald Islands",
+        "official_name": "The Territory of Heard Island and McDonald Islands"
+    },
+    {
+        "country_code": "VA",
+        "country": "Vatican City",
+        "official_name": "The Holy See"
+    },
+    {
+        "country_code": "HN",
+        "country": "Honduras",
+        "official_name": "The Republic of Honduras"
+    },
+    {
+        "country_code": "HK",
+        "country": "Hong Kong",
+        "official_name": "The Hong Kong Special Administrative Region of China"
+    },
+    {
+        "country_code": "HU",
+        "country": "Hungary",
+        "vat_percentage": 27,
+        "official_name": "Hungary"
+    },
+    {
+        "country_code": "IS",
+        "country": "Iceland",
+        "official_name": "Iceland"
+    },
+    {
+        "country_code": "IN",
+        "country": "India",
+        "official_name": "The Republic of India"
+    },
+    {
+        "country_code": "ID",
+        "country": "Indonesia",
+        "official_name": "The Republic of Indonesia"
+    },
+    {
+        "country_code": "IR",
+        "country": "Iran",
+        "official_name": "The Islamic Republic of Iran"
+    },
+    {
+        "country_code": "IQ",
+        "country": "Iraq",
+        "official_name": "The Republic of Iraq"
+    },
+    {
+        "country_code": "IE",
+        "country": "Ireland",
+        "vat_percentage": 23,
+        "official_name": "Ireland"
+    },
+    {
+        "country_code": "IM",
+        "country": "Isle of Man",
+        "official_name": "The Isle of Man"
+    },
+    {
+        "country_code": "IL",
+        "country": "Israel",
+        "official_name": "The State of Israel"
+    },
+    {
+        "country_code": "IT",
+        "country": "Italy",
+        "vat_percentage": 22,
+        "official_name": "The Italian Republic"
+    },
+    {
+        "country_code": "JM",
+        "country": "Jamaica",
+        "official_name": "Jamaica"
+    },
+    {
+        "country_code": "JP",
+        "country": "Japan",
+        "official_name": "Japan"
+    },
+    {
+        "country_code": "JE",
+        "country": "Jersey",
+        "official_name": "The Bailiwick of Jersey"
+    },
+    {
+        "country_code": "JO",
+        "country": "Jordan",
+        "official_name": "The Hashemite Kingdom of Jordan"
+    },
+    {
+        "country_code": "KZ",
+        "country": "Kazakhstan",
+        "official_name": "The Republic of Kazakhstan"
+    },
+    {
+        "country_code": "KE",
+        "country": "Kenya",
+        "official_name": "The Republic of Kenya"
+    },
+    {
+        "country_code": "KI",
+        "country": "Kiribati",
+        "official_name": "The Republic of Kiribati"
+    },
+    {
+        "country_code": "KP",
+        "country": "North Korea",
+        "official_name": "The Democratic People's Republic of Korea"
+    },
+    {
+        "country_code": "KR",
+        "country": "South Korea",
+        "official_name": "The Republic of Korea"
+    },
+    {
+        "country_code": "KW",
+        "country": "Kuwait",
+        "official_name": "The State of Kuwait"
+    },
+    {
+        "country_code": "KG",
+        "country": "Kyrgyzstan",
+        "official_name": "The Kyrgyz Republic"
+    },
+    {
+        "country_code": "LA",
+        "country": "Lao People's Democratic Republic",
+        "official_name": "The Lao People's Democratic Republic"
+    },
+    {
+        "country_code": "LV",
+        "country": "Latvia",
+        "vat_percentage": 21,
+        "official_name": "The Republic of Latvia"
+    },
+    {
+        "country_code": "LB",
+        "country": "Lebanon",
+        "official_name": "The Lebanese Republic"
+    },
+    {
+        "country_code": "LS",
+        "country": "Lesotho",
+        "official_name": "The Kingdom of Lesotho"
+    },
+    {
+        "country_code": "LR",
+        "country": "Liberia",
+        "official_name": "The Republic of Liberia"
+    },
+    {
+        "country_code": "LY",
+        "country": "Libya",
+        "official_name": "The State of Libya"
+    },
+    {
+        "country_code": "LI",
+        "country": "Liechtenstein",
+        "official_name": "The Principality of Liechtenstein"
+    },
+    {
+        "country_code": "LT",
+        "country": "Lithuania",
+        "vat_percentage": 21,
+        "official_name": "The Republic of Lithuania"
+    },
+    {
+        "country_code": "LU",
+        "country": "Luxembourg",
+        "vat_percentage": 17,
+        "official_name": "The Grand Duchy of Luxembourg"
+    },
+    {
+        "country_code": "MO",
+        "country": "Macao",
+        "official_name": "The Macao Special Administrative Region of China"
+    },
+    {
+        "country_code": "MG",
+        "country": "Madagascar",
+        "official_name": "The Republic of Madagascar"
+    },
+    {
+        "country_code": "MW",
+        "country": "Malawi",
+        "official_name": "The Republic of Malawi"
+    },
+    {
+        "country_code": "MY",
+        "country": "Malaysia",
+        "official_name": "Malaysia"
+    },
+    {
+        "country_code": "MV",
+        "country": "Maldives",
+        "official_name": "The Republic of Maldives"
+    },
+    {
+        "country_code": "ML",
+        "country": "Mali",
+        "official_name": "The Republic of Mali"
+    },
+    {
+        "country_code": "MT",
+        "country": "Malta",
+        "vat_percentage": 18,
+        "official_name": "The Republic of Malta"
+    },
+    {
+        "country_code": "MH",
+        "country": "Marshall Islands",
+        "official_name": "The Republic of the Marshall Islands"
+    },
+    {
+        "country_code": "MQ",
+        "country": "Martinique",
+        "official_name": "Martinique"
+    },
+    {
+        "country_code": "MR",
+        "country": "Mauritania",
+        "official_name": "The Islamic Republic of Mauritania"
+    },
+    {
+        "country_code": "MU",
+        "country": "Mauritius",
+        "official_name": "The Republic of Mauritius"
+    },
+    {
+        "country_code": "YT",
+        "country": "Mayotte",
+        "official_name": "The Department of Mayotte"
+    },
+    {
+        "country_code": "MX",
+        "country": "Mexico",
+        "official_name": "The United Mexican States"
+    },
+    {
+        "country_code": "FM",
+        "country": "Micronesia",
+        "official_name": "The Federated States of Micronesia"
+    },
+    {
+        "country_code": "MD",
+        "country": "Moldova",
+        "official_name": "The Republic of Moldova"
+    },
+    {
+        "country_code": "MC",
+        "country": "Monaco",
+        "official_name": "The Principality of Monaco"
+    },
+    {
+        "country_code": "MN",
+        "country": "Mongolia",
+        "official_name": "Mongolia"
+    },
+    {
+        "country_code": "ME",
+        "country": "Montenegro",
+        "official_name": "Montenegro"
+    },
+    {
+        "country_code": "MS",
+        "country": "Montserrat",
+        "official_name": "Montserrat"
+    },
+    {
+        "country_code": "MA",
+        "country": "Morocco",
+        "official_name": "The Kingdom of Morocco"
+    },
+    {
+        "country_code": "MZ",
+        "country": "Mozambique",
+        "official_name": "The Republic of Mozambique"
+    },
+    {
+        "country_code": "MM",
+        "country": "Myanmar",
+        "official_name": "The Republic of the Union of Myanmar"
+    },
+    {
+        "country_code": "NA",
+        "country": "Namibia",
+        "official_name": "The Republic of Namibia"
+    },
+    {
+        "country_code": "NR",
+        "country": "Nauru",
+        "official_name": "The Republic of Nauru"
+    },
+    {
+        "country_code": "NP",
+        "country": "Nepal",
+        "official_name": "The Federal Democratic Republic of Nepal"
+    },
+    {
+        "country_code": "NL",
+        "country": "Netherlands",
+        "vat_percentage": 21,
+        "official_name": "The Kingdom of the Netherlands"
+    },
+    {
+        "country_code": "NC",
+        "country": "New Caledonia",
+        "official_name": "New Caledonia"
+    },
+    {
+        "country_code": "NZ",
+        "country": "New Zealand",
+        "official_name": "New Zealand"
+    },
+    {
+        "country_code": "NI",
+        "country": "Nicaragua",
+        "official_name": "The Republic of Nicaragua"
+    },
+    {
+        "country_code": "NE",
+        "country": "Niger",
+        "official_name": "The Republic of the Niger"
+    },
+    {
+        "country_code": "NG",
+        "country": "Nigeria",
+        "official_name": "The Federal Republic of Nigeria"
+    },
+    {
+        "country_code": "NU",
+        "country": "Niue",
+        "official_name": "Niue"
+    },
+    {
+        "country_code": "NF",
+        "country": "Norfolk Island",
+        "official_name": "The Territory of Norfolk Island"
+    },
+    {
+        "country_code": "MK",
+        "country": "North Macedonia",
+        "official_name": "The Republic of North Macedonia"
+    },
+    {
+        "country_code": "MP",
+        "country": "Northern Mariana Islands",
+        "official_name": "The Commonwealth of the Northern Mariana Islands"
+    },
+    {
+        "country_code": "NO",
+        "country": "Norway",
+        "official_name": "The Kingdom of Norway"
+    },
+    {
+        "country_code": "OM",
+        "country": "Oman",
+        "official_name": "The Sultanate of Oman"
+    },
+    {
+        "country_code": "PK",
+        "country": "Pakistan",
+        "official_name": "The Islamic Republic of Pakistan"
+    },
+    {
+        "country_code": "PW",
+        "country": "Palau",
+        "official_name": "The Republic of Palau"
+    },
+    {
+        "country_code": "PS",
+        "country": "Palestine",
+        "official_name": "The State of Palestine"
+    },
+    {
+        "country_code": "PA",
+        "country": "Panama",
+        "official_name": "The Republic of Panamá"
+    },
+    {
+        "country_code": "PG",
+        "country": "Papua New Guinea",
+        "official_name": "The Independent State of Papua New Guinea"
+    },
+    {
+        "country_code": "PY",
+        "country": "Paraguay",
+        "official_name": "The Republic of Paraguay"
+    },
+    {
+        "country_code": "PE",
+        "country": "Peru",
+        "official_name": "The Republic of Perú"
+    },
+    {
+        "country_code": "PH",
+        "country": "Philippines",
+        "official_name": "The Republic of the Philippines"
+    },
+    {
+        "country_code": "PN",
+        "country": "Pitcairn",
+        "official_name": "The Pitcairn, Henderson, Ducie and Oeno Islands"
+    },
+    {
+        "country_code": "PL",
+        "country": "Poland",
+        "vat_percentage": 23,
+        "official_name": "The Republic of Poland"
+    },
+    {
+        "country_code": "PT",
+        "country": "Portugal",
+        "vat_percentage": 23,
+        "official_name": "The Portuguese Republic"
+    },
+    {
+        "country_code": "PR",
+        "country": "Puerto Rico",
+        "official_name": "The Commonwealth of Puerto Rico"
+    },
+    {
+        "country_code": "QA",
+        "country": "Qatar",
+        "official_name": "The State of Qatar"
+    },
+    {
+        "country_code": "RE",
+        "country": "Réunion",
+        "official_name": "Réunion"
+    },
+    {
+        "country_code": "RO",
+        "country": "Romania",
+        "vat_percentage": 19,
+        "official_name": "Romania"
+    },
+    {
+        "country_code": "RU",
+        "country": "Russia",
+        "official_name": "The Russian Federation"
+    },
+    {
+        "country_code": "RW",
+        "country": "Rwanda",
+        "official_name": "The Republic of Rwanda"
+    },
+    {
+        "country_code": "BL",
+        "country": "Saint Barthélemy",
+        "official_name": "The Collectivity of Saint-Barthélemy"
+    },
+    {
+        "country_code": "SH",
+        "country": "Saint Helena, Ascension and Tristan da Cunha",
+        "official_name": "Saint Helena, Ascension and Tristan da Cunha"
+    },
+    {
+        "country_code": "KN",
+        "country": "Saint Kitts and Nevis",
+        "official_name": "Saint Kitts and Nevis"
+    },
+    {
+        "country_code": "LC",
+        "country": "Saint Lucia",
+        "official_name": "Saint Lucia"
+    },
+    {
+        "country_code": "MF",
+        "country": "Saint Martin (French part)",
+        "official_name": "The Collectivity of Saint-Martin"
+    },
+    {
+        "country_code": "PM",
+        "country": "Saint Pierre and Miquelon",
+        "official_name": "The Overseas Collectivity of Saint-Pierre and Miquelon"
+    },
+    {
+        "country_code": "VC",
+        "country": "Saint Vincent and the Grenadines",
+        "official_name": "Saint Vincent and the Grenadines"
+    },
+    {
+        "country_code": "WS",
+        "country": "Samoa",
+        "official_name": "The Independent State of Samoa"
+    },
+    {
+        "country_code": "SM",
+        "country": "San Marino",
+        "official_name": "The Republic of San Marino"
+    },
+    {
+        "country_code": "ST",
+        "country": "Sao Tome and Principe",
+        "official_name": "The Democratic Republic of São Tomé and Príncipe"
+    },
+    {
+        "country_code": "SA",
+        "country": "Saudi Arabia",
+        "official_name": "The Kingdom of Saudi Arabia"
+    },
+    {
+        "country_code": "SN",
+        "country": "Senegal",
+        "official_name": "The Republic of Senegal"
+    },
+    {
+        "country_code": "RS",
+        "country": "Serbia",
+        "official_name": "The Republic of Serbia"
+    },
+    {
+        "country_code": "SC",
+        "country": "Seychelles",
+        "official_name": "The Republic of Seychelles"
+    },
+    {
+        "country_code": "SL",
+        "country": "Sierra Leone",
+        "official_name": "The Republic of Sierra Leone"
+    },
+    {
+        "country_code": "SG",
+        "country": "Singapore",
+        "official_name": "The Republic of Singapore"
+    },
+    {
+        "country_code": "SX",
+        "country": "Sint Maarten (Dutch part)",
+        "official_name": "Sint Maarten"
+    },
+    {
+        "country_code": "SK",
+        "country": "Slovakia",
+        "vat_percentage": 20,
+        "official_name": "The Slovak Republic"
+    },
+    {
+        "country_code": "SI",
+        "country": "Slovenia",
+        "vat_percentage": 22,
+        "official_name": "The Republic of Slovenia"
+    },
+    {
+        "country_code": "SB",
+        "country": "Solomon Islands",
+        "official_name": "The Solomon Islands"
+    },
+    {
+        "country_code": "SO",
+        "country": "Somalia",
+        "official_name": "The Federal Republic of Somalia"
+    },
+    {
+        "country_code": "ZA",
+        "country": "South Africa",
+        "official_name": "The Republic of South Africa"
+    },
+    {
+        "country_code": "GS",
+        "country": "South Georgia and the South Sandwich Islands",
+        "official_name": "South Georgia and the South Sandwich Islands"
+    },
+    {
+        "country_code": "SS",
+        "country": "South Sudan",
+        "official_name": "The Republic of South Sudan"
+    },
+    {
+        "country_code": "ES",
+        "country": "Spain",
+        "vat_percentage": 21,
+        "official_name": "The Kingdom of Spain"
+    },
+    {
+        "country_code": "LK",
+        "country": "Sri Lanka",
+        "official_name": "The Democratic Socialist Republic of Sri Lanka"
+    },
+    {
+        "country_code": "SD",
+        "country": "Sudan",
+        "official_name": "The Republic of the Sudan"
+    },
+    {
+        "country_code": "SR",
+        "country": "Suriname",
+        "official_name": "The Republic of Suriname"
+    },
+    {
+        "country_code": "SJ",
+        "country": "Svalbard and Jan Mayen",
+        "official_name": "Svalbard and Jan Mayen"
+    },
+    {
+        "country_code": "SE",
+        "country": "Sweden",
+        "vat_percentage": 25,
+        "official_name": "The Kingdom of Sweden"
+    },
+    {
+        "country_code": "CH",
+        "country": "Switzerland",
+        "official_name": "The Swiss Confederation"
+    },
+    {
+        "country_code": "SY",
+        "country": "Syria",
+        "official_name": "The Syrian Arab Republic"
+    },
+    {
+        "country_code": "TW",
+        "country": "Taiwan, Province of China",
+        "official_name": "The Republic of China"
+    },
+    {
+        "country_code": "TJ",
+        "country": "Tajikistan",
+        "official_name": "The Republic of Tajikistan"
+    },
+    {
+        "country_code": "TZ",
+        "country": "Tanzania",
+        "official_name": "The United Republic of Tanzania"
+    },
+    {
+        "country_code": "TH",
+        "country": "Thailand",
+        "official_name": "The Kingdom of Thailand"
+    },
+    {
+        "country_code": "TL",
+        "country": "Timor-Leste",
+        "official_name": "The Democratic Republic of Timor-Leste"
+    },
+    {
+        "country_code": "TG",
+        "country": "Togo",
+        "official_name": "The Togolese Republic"
+    },
+    {
+        "country_code": "TK",
+        "country": "Tokelau",
+        "official_name": "Tokelau"
+    },
+    {
+        "country_code": "TO",
+        "country": "Tonga",
+        "official_name": "The Kingdom of Tonga"
+    },
+    {
+        "country_code": "TT",
+        "country": "Trinidad and Tobago",
+        "official_name": "The Republic of Trinidad and Tobago"
+    },
+    {
+        "country_code": "TN",
+        "country": "Tunisia",
+        "official_name": "The Republic of Tunisia"
+    },
+    {
+        "country_code": "TR",
+        "country": "Türkiye",
+        "official_name": "The Republic of Türkiye"
+    },
+    {
+        "country_code": "TM",
+        "country": "Turkmenistan",
+        "official_name": "Turkmenistan"
+    },
+    {
+        "country_code": "TC",
+        "country": "Turks and Caicos Islands",
+        "official_name": "The Turks and Caicos Islands"
+    },
+    {
+        "country_code": "TV",
+        "country": "Tuvalu",
+        "official_name": "Tuvalu"
+    },
+    {
+        "country_code": "UG",
+        "country": "Uganda",
+        "official_name": "The Republic of Uganda"
+    },
+    {
+        "country_code": "UA",
+        "country": "Ukraine",
+        "official_name": "Ukraine"
+    },
+    {
+        "country_code": "AE",
+        "country": "United Arab Emirates",
+        "official_name": "The United Arab Emirates"
+    },
+    {
+        "country_code": "GB",
+        "country": "United Kingdom",
+        "official_name": "The United Kingdom of Great Britain and Northern Ireland"
+    },
+    {
+        "country_code": "US",
+        "country": "United States",
+        "official_name": "The United States of America"
+    },
+    {
+        "country_code": "UM",
+        "country": "United States Minor Outlying Islands",
+        "official_name": "Baker Island, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef, Midway Atoll, Navassa Island, Palmyra Atoll, and Wake Island"
+    },
+    {
+        "country_code": "UY",
+        "country": "Uruguay",
+        "official_name": "The Oriental Republic of Uruguay"
+    },
+    {
+        "country_code": "UZ",
+        "country": "Uzbekistan",
+        "official_name": "The Republic of Uzbekistan"
+    },
+    {
+        "country_code": "VU",
+        "country": "Vanuatu",
+        "official_name": "The Republic of Vanuatu"
+    },
+    {
+        "country_code": "VE",
+        "country": "Venezuela",
+        "official_name": "The Bolivarian Republic of Venezuela"
+    },
+    {
+        "country_code": "VN",
+        "country": "Viet Nam",
+        "official_name": "The Socialist Republic of Viet Nam"
+    },
+    {
+        "country_code": "VG",
+        "country": "Virgin Islands (British)",
+        "official_name": "The Virgin Islands"
+    },
+    {
+        "country_code": "VI",
+        "country": "Virgin Islands (U.S.)",
+        "official_name": "The Virgin Islands of the United States"
+    },
+    {
+        "country_code": "WF",
+        "country": "Wallis and Futuna",
+        "official_name": "The Territory of the Wallis and Futuna Islands"
+    },
+    {
+        "country_code": "EH",
+        "country": "Western Sahara",
+        "official_name": "The Sahrawi Arab Democratic Republic"
+    },
+    {
+        "country_code": "YE",
+        "country": "Yemen",
+        "official_name": "The Republic of Yemen"
+    },
+    {
+        "country_code": "ZM",
+        "country": "Zambia",
+        "official_name": "The Republic of Zambia"
+    },
+    {
+        "country_code": "ZW",
+        "country": "Zimbabwe",
+        "official_name": "The Republic of Zimbabwe"
+    }
+]

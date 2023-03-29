@@ -25,7 +25,6 @@ class SigninController extends Controller
         $this->middleware('guest');
     }
 
-
     static public function greeting($request, $to)
     {
         // Get the user's time zone

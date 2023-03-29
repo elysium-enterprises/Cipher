@@ -49,6 +49,8 @@ return new class extends Migration
             $table->date('birthday')->nullable(); 
             $table->boolean('completed_onboarding')->default(false);
 
+            $table->string('country')->nullable();
+
             // Settings
             $table->boolean('login_notification')->default(false);
             $table->boolean('findable_by_mutual_contacts')->default(true);
@@ -63,6 +65,8 @@ return new class extends Migration
             $table->boolean('developer_mode')->default(false);
 
             $table->boolean('is_suspended')->default(false);
+
+            $table->foreign('country')->references('country_code')->on('countries');
         });
     }
 
@@ -73,6 +77,10 @@ return new class extends Migration
      */
     public function down()
     {
+        Schema::table('members', function (Blueprint $table) {
+            $table->dropForeign(['country']);
+        });
+
         Schema::dropIfExists('members');
     }
 };

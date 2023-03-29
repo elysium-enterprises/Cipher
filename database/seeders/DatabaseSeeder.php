@@ -3,7 +3,12 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use Database\Factories\CategoryFactory;
+use Database\Factories\MemberFactory;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,11 +19,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\Member::factory(10)->create();
+        // MemberFactory::new()->times(40)->create();
 
-        // \App\Models\Member::factory()->create([
-        //     'display_name' => 'Test User',
-        //     'cid' => 'TestUser12345',
-        // ]);
+        $this->call([
+            CountrySeeder::class,
+            ProductCategorySeeder::class
+        ]);
     }
 }

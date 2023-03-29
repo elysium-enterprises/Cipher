@@ -13,9 +13,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        screen: ['100vh /* fallback for Opera, IE and etc. */', '100svh'],
+      },
       colors: {
-        'brand' : '#DC3545',
-        'brand-secondary' : '#5A1C1C'
+        'brand': '#DC3545',
+        'brand-secondary': '#5A1C1C',
+        'brand-pastel' : '#FF6961'
       },
     },
     fontFamily: {
@@ -26,6 +30,6 @@ module.exports = {
       'body': ['"Montserrat"', '"twemoji"']
     }
   },
-  
+
   plugins: [],
 }

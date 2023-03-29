@@ -19,7 +19,8 @@ class IndexController extends Controller
     
     public function index(Request $request)
     {
-        $vars = [];
+        $vars = [
+        ];
 
         if(Auth::check()) {
             $vars['greeting'] = SigninController::greeting($request, '<span class="text-brand">' . Auth::user()->display_name . '</span>');

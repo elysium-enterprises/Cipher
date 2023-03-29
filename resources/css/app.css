@@ -1,0 +1,18 @@
+@import url('//fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Montserrat&family=Red+Hat+Mono&family=Roboto+Slab&display=swap');
+
+/* Variables */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'twemoji';
+    src: url(../fonts/twemoji.ttf);
+}
+
+@layer components {
+    input[type="checkbox"] {
+        @apply border accent-brand border-gray-300 rounded bg-gray-50
+    }
+}

@@ -11,7 +11,14 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
+mix.webpackConfig({ module: { rules: [{ test: /\.mp4$/i, use: 'raw-loader' }] } })
+    .js('resources/js/app.js', 'public/js')
     .vue()
     .sass('resources/sass/app.scss', 'public/css')
-    .copyDirectory('resources/images', 'public/images');
+    .postCss('resources/css/app.css', 'public/css', [
+        require('postcss-import'),
+        require('tailwindcss'),
+        require('autoprefixer')
+    ])
+    .copyDirectory('resources/images', 'public/images')
+    .version();

@@ -30,9 +30,11 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::table('login_history', function (Blueprint $table) {
-            $table->dropForeign('login_history_member_id_foreign');
-        });
+        if (Schema::hasTable('login_history')) {
+            Schema::table('login_history', function (Blueprint $table) {
+                $table->dropForeign(['member_id']);
+            });
+        }
         Schema::dropIfExists('login_history');
     }
 };

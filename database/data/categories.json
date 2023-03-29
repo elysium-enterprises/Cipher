@@ -1,0 +1,90 @@
+[
+    {
+        "id" : 0,
+        "name" : "Hives"
+    },
+    {
+        "id" : 1,
+        "name": "Apparel"
+    },
+    {
+        "id" : 2,
+        "name" : "Office Supplies"
+    },
+    {
+        "id" : 3,
+        "name" : "Drinkware"
+    },
+    {
+        "id" : 4,
+        "name" : "Tech Accessoires"
+    },
+    {
+        "id" : 5,
+        "name" : "Promotional Material"
+    },
+
+    {
+        "parent_id" : 1,
+        "name" : "T-Shirts"
+    },
+    {
+        "parent_id" : 1,
+        "name" : "Hoodies"
+    },
+    {
+        "parent_id" : 1,
+        "name" : "Hats"
+    },
+    {
+        "parent_id" : 1,
+        "name" : "Masks"
+    },
+    {
+        "parent_id" : 1,
+        "name" : "Other"
+    },
+
+    {
+        "parent_id" : 2,
+        "name" : "Pens"
+    },
+    {
+        "parent_id" : 2,
+        "name" : "Notebooks"
+    },
+    {
+        "parent_id" : 2,
+        "name" : "Mousepads"
+    },
+
+    {
+        "parent_id" : 3,
+        "name" : "Water Bottles"
+    },
+    {
+        "parent_id" : 3,
+        "name" : "Coffee Mugs"
+    },
+    {
+        "parent_id" : 3,
+        "name" : "Tumblers"
+    },
+    {
+        "parent_id" : 3,
+        "name" : "Other"
+    },
+
+    {
+        "parent_id" : 4,
+        "name" : "Cases"
+    },
+    {
+        "parent_id" : 4,
+        "name" : "Laptop Sleeves"
+    },
+    {
+        "parent_id" : 3,
+        "name" : "Other"
+    }
+]

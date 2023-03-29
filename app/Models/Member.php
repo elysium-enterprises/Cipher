@@ -215,4 +215,11 @@ class Member extends Authenticatable
             })->get();
         }
     }
+
+    // Shop
+
+    public function likedProducts()
+    {
+        return $this->belongsToMany(Product::class, 'product_likes');
+    }
 }

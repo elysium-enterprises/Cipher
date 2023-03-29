@@ -23,8 +23,6 @@ return new class extends Migration
             $table->string('message')->nullable();
             $table->boolean('accepted')->default('false');
         });
-
-
     }
 
     /**
@@ -34,10 +32,12 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::table('contacts', function (Blueprint $table) {
-            $table->dropForeign('contacts_author_id_foreign');
-            $table->dropForeign('contacts_recipient_id_foreign');
-        });
+        if (Schema::hasTable('contacts')) {
+            Schema::table('contacts', function (Blueprint $table) {
+                $table->dropForeign(['author_id']);
+                $table->dropForeign(['recipient_id']);
+            });
+        }
         Schema::dropIfExists('contacts');
     }
 };
