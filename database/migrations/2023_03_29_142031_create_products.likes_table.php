@@ -29,11 +29,11 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::table('product.likes', function (Blueprint $table) {
+        Schema::table('products.likes', function (Blueprint $table) {
             $table->dropForeign(['member_id']);
             $table->dropForeign(['product_id']);
         });
         
-        Schema::dropIfExists('product.likes');
+        Schema::dropIfExists('products.likes');
     }
 };
